@@ -1,0 +1,20 @@
+/* Set the background image */
+.app-background {
+    background-image: url('./assets/download.jpeg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;  /* Full height to cover the viewport */
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;     /* Vertically center the content */
+  }
+  
+  /* Style for the signup form */
+  .signup-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Slight white background with transparency */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Optional shadow for better visibility */
+  }
+  

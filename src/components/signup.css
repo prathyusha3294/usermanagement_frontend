@@ -1,0 +1,78 @@
+Center the form and elements
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e4e9ed; /* Light background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  div {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .form {
+    display: flex;
+    flex-wrap: wrap;       
+    gap: 20px;          
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+
+  
+  button {
+    padding: 10px;
+    background-color: #052950;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #18d018; /* Darker blue on hover */
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  span {
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  span:hover {
+    text-decoration: underline;
+  }
+  
+  /* Error message */
+  p[style] {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  

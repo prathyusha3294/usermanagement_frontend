@@ -1,16 +1,16 @@
-import React from 'react'
-import './dashboard'
+import React from 'react';
+
 const dashboard = () => {
     return (
         <div>
           <nav className='navbar'>
             <div>Usermanagement</div>
             <div className='desktopmenu'>
-            <a href="#home" className='desktopMenuListItem' style={{ color: 'white' }}>Home</a>
-              <a href="#about" className='desktopMenuListItem' style={{ color: 'white' }}>About</a>
-              <a href="#experience" className='desktopMenuListItem' style={{ color: 'white' }}>Experience</a>
-              <a href="#skills" className='desktopMenuListItem' style={{ color: 'white' }}>Skills</a>
-              <a href="#projects" className='desktopMenuListItem' style={{ color: 'white' }}>Projects</a>
+            <a href="#home" className='desktopMenuListItem' style={{ color: 'black' }}>Home</a>
+              <a href="#about" className='desktopMenuListItem' style={{ color: 'black' }}>About</a>
+              <a href="#experience" className='desktopMenuListItem' style={{ color: 'black' }}>Experience</a>
+              <a href="#skills" className='desktopMenuListItem' style={{ color: 'black' }}>Skills</a>
+              <a href="#projects" className='desktopMenuListItem' style={{ color: 'black' }}>Projects</a>
             </div>
             <a href="signup" className='desktopMenubotton'>
               Signup
@@ -18,7 +18,7 @@ const dashboard = () => {
             <a href="login" className='desktopMenubotton'>
               login
             </a>
-          </nav>
+          </nav>++
         </div>  
       );
     };

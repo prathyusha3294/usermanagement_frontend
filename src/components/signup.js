@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import './signup.css';
 // import axiosInstance from "./axiosInstance"; // Import the axios instance
 
 function Signup() {
@@ -54,10 +55,10 @@ function Signup() {
 
   return (
     <div>
-      <h2>Sign Up</h2>
+      <h2><center>Create Account</center></h2>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Firstname:</label>
+          <label>Firstname</label>
           <input
             type="text"
             value={firstname}
@@ -66,7 +67,7 @@ function Signup() {
           />
         </div>
         <div>
-          <label>Lastname:</label>
+          <label>Lastname</label>
           <input
             type="text"
             value={lastname}
@@ -75,7 +76,7 @@ function Signup() {
           />
         </div>
         <div>
-          <label>Email:</label>
+          <label>Email</label>
           <input
             type="email"
             value={email}
@@ -84,7 +85,7 @@ function Signup() {
           />
         </div>
         <div>
-          <label>Phone:</label>
+          <label>Phone</label>
           <input
             type="tel"
             value={phone}
@@ -93,7 +94,7 @@ function Signup() {
           />
         </div>
         <div>
-          <label>Password:</label>
+          <label>Password</label>
           <input
             type="password"
             value={createPassword}
@@ -102,7 +103,7 @@ function Signup() {
           />
         </div>
         <div>
-          <label>Confirm Password:</label>
+          <label>Confirm Password</label>
           <input
             type="password"
             value={confirmPassword}
