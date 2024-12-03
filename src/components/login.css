@@ -1,0 +1,197 @@
+/* Reset margins and paddings */
+* {
+  margin: 100;
+  padding: 100;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main container to cover full screen */
+.main-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+/* Left container styling */
+.left-container {
+  flex: 2; /* Makes the left container larger */
+  background-color: #2d3e50; /* Adjust the color as needed */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Job portal logo in left container */
+.job-portal-logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Branding text styling */
+.brand-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sponsor-logos {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.sponsor-logo {
+  width: 80px;
+  height: auto;
+}
+
+/* Right container (Sign-in area) */
+.signup-container {
+  flex: 1; /* Adjust proportionally to left container */
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  overflow-y: auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Social login button styling */
+.social-login button {
+  padding: 10px;
+  border: none;
+  border-radius: 30px; /* Makes the button rounded */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Ensures button spans the container width */
+  text-align: center;
+}
+
+.social-login button {
+  width: 350px; /* Fixed width */
+  height: 50px; /* Fixed height */
+  margin: 10px auto; /* Center buttons horizontally */
+}
+
+.sponsor-container {
+  max-width: 100%; /* Restrict the width of the container */
+  overflow-x: auto; /* Allow horizontal scrolling */
+}
+
+.google-login {
+  background:gainsboro;
+  color: white;
+}
+
+.facebook-login {
+  background: #1877f2;
+  color: white;
+}
+
+.apple-login {
+  background: black;
+  color: white;
+}
+
+button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.divider span {
+  background-color: #f5f5f5;
+  padding: 0 10px;
+  color: #888;
+}
+
+.form-group label {
+  display: inline-block;
+  margin-bottom: 5px; /* Adjust or set to 0 if no spacing is needed */
+}
+
+.form-group input {
+  display: block;
+  width: 100%; /* Optional: make inputs full width */
+}
+
+/* Styling for all inputs */
+/* input {
+  width: 100%;
+  padding: 0px;
+  margin: 0; 
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box; 
+} */
+
+.btn-primary {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+}
+
+.link {
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.link:hover {
+  color: #0056b3;
+}
+
+.right-container {
+  flex: 4;
+}
